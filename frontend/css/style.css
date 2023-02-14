@@ -1,0 +1,58 @@
+body {
+  font: 1em Tahoma, sans-serif;
+  background-color: beige;
+  color: #333;
+  max-width: 660px;
+  margin: 0 auto;
+}
+/* block element */
+h1 {
+  border: 1px solid black;
+}
+
+/* inline element */
+/* span {
+  background-color: orange;
+  margin: 5px;
+  padding: 50px;
+} */
+
+.wrapper {
+  border: 1px solid #333;
+  /* position: relative; */
+}
+
+.box {
+  width: 200px;
+  margin-right: 15px;
+  border-radius: 5px;
+  border: 5px solid rgb(17, 105, 121);
+  background-color: rgb(17, 105, 121, 0.1);
+  /* position: fixed;
+  top: 30px;
+  left: 30px; */
+}
+
+.main ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.main li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.main a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.main {
+  background-color: #333;
+  width: 100%;
+  position: sticky;
+  top: 30px;
+}
