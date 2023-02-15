@@ -13,7 +13,7 @@ body {
 
 nav {
   max-width: 600px;
-  /* width: 600px; */
+  width: 80%;
   height: 50px;
   margin: 20px auto 0; /*ez a megoldás tetszik*/
   padding: 0 10px;
